@@ -3,15 +3,22 @@ pragma solidity ^0.8.20;
 
 contract RentalAgreement {
     struct Rental {
+<<<<<<< HEAD
         address lender;
         address borrower;
         uint256 collateral;
+=======
+        address lenderl;
+        address borrower;
+        uint256 colalteral;
+>>>>>>> 0b2b025 (Initialized Hardjat amd added RentalAgreement.sol)
         bool isActive;
     }
 
     mapping(uint256 => Rental) public rentals;
     uint256 public rentalCounter;
 
+<<<<<<< HEAD
     // Add an event to track when rentals are listed or borrowed
     event ItemListed(uint256 rentalId, address lender, uint256 colalterel);
     event ItemBorrowed(uint256 rentalId, address borrower, uint256 collateral);
@@ -19,12 +26,16 @@ contract RentalAgreement {
     function listItem(uint256 _collateral) public {
         require(_collateral > 0, "Collateral must be greater than 0");
 
+=======
+    function listItem(uint256 _collateral) public {
+>>>>>>> 0b2b025 (Initialized Hardjat amd added RentalAgreement.sol)
         rentals[rentalCounter] = Rental(
             msg.sender,
             address(0),
             _collateral,
             false
         );
+<<<<<<< HEAD
 
         // Emit even to check if fucntion is called
         emit ItemListed(rentalCounter, msg.sender, _collateral);
@@ -66,4 +77,8 @@ contract RentalAgreement {
         rentals[_rentalId].isActive = false;
         payable(msg.sender).transfer(collateralAmount);
     }
+=======
+        rentalCounter++;
+    }
+>>>>>>> 0b2b025 (Initialized Hardjat amd added RentalAgreement.sol)
 }

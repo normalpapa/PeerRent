@@ -1,13 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "hardhat-project",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.18"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.7"
-=======
   "name": "peer-rent",
   "version": "1.0.0",
   "description": "",
@@ -34,6 +25,5 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.2.0"
->>>>>>> 0b2b025 (Initialized Hardjat amd added RentalAgreement.sol)
   }
 }

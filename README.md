@@ -120,16 +120,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 Happy renting!
 
-yaml
-Copy
-
 ---
-
-### **How to Update**
-1. Copy all of the above into your `README.md`.
-2. Adjust any links or details specific to your repository (e.g., Git URL).
-3. Commit and push to GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Update README"
-   git push origin main

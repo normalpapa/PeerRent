@@ -1,9 +1,4 @@
 node_modules
-<<<<<<< HEAD
-
-node_modules
-=======
->>>>>>> 0b2b025 (Initialized Hardjat amd added RentalAgreement.sol)
 .env
 
 # Hardhat files
